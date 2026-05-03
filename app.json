@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "NearbyFinder",
+    "slug": "nearbyfinder",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0F0F1A"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.nearbyfinder.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "We need your location to find nearby places."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0F0F1A"
+      },
+      "package": "com.nearbyfinder.app",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ]
+    },
+    "scheme": "nearbyfinder",
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "root": "./app"
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow NearbyFinder to use your location."
+        }
+      ]
+    ]
+  }
+}
