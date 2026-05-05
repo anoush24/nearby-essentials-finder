@@ -28,7 +28,6 @@ npx expo start
 - 🔍 Find nearby ATMs, Hospitals, Cafés within 3 km
 - 📍 Real GPS location
 - 💰 Estimated cab fare (₹30 base + ₹14/km)
-- 🚖 Shows Ola / Uber / Rapido estimates
 - 🗺 "Open in Maps" to get directions
 - ⏱ Walking & cab time estimates
 
